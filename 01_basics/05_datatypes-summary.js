@@ -32,3 +32,31 @@ const myFunction = function(){
 
 console.log(typeof bigNumber);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// THERE ARE MAINLY TWO TYPES OF MEMORY - STACK(used in primitive) and HEAP(used in non-primitive)
+
+let myYoutubename = 'ashishyt.com'
+let anothername = myYoutubename
+anothername = "nirakaryt"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+console.log(userOne);
+
+let usertTwo = userOne
+
+usertTwo.email = "ashish@google.com"
+console.log(userOne.email);
+console.log(usertTwo.email);
+
+
+
+
+
