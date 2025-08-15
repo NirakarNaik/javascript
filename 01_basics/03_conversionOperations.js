@@ -37,7 +37,8 @@ console.log(str3);
 console.log(1 + "2");
 console.log("1" + 2);
 console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log(1 + 2 + "2"); 
+// If any operand in + is a string, JavaScript converts the other operand to a string and does concatenation.
 
 console.log( (3 + 4) * 5 % 3);
 
