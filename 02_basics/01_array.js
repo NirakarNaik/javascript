@@ -32,11 +32,11 @@ console.log(myArr);
 
 console.log("A",myArr);
 
-const myn1 = myArr.slice(1,3)
+const myn1 = myArr.slice(1,3) // 3 is excluded
 console.log(myn1);
 console.log("B",myArr);
 
-const myn2 = myArr.splice(1,3)
+const myn2 = myArr.splice(1,3) // 3 is included
 console.log(myn2);
 console.log("C",myArr);
 
