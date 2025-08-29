@@ -4,7 +4,7 @@
 const MySym = Symbol("key1")
 
 const JsUser = {
-    name: "Ashish",
+    name: "Ashish", // JsUser is object, name is key and Ashish is the value of key
     full_name: "Ashish Naik",
     [MySym]:"mykey1",
     age: 18,
