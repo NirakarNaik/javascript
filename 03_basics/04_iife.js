@@ -25,5 +25,3 @@
 // 4.We can use parameter inside first parentheses.
 // 5. To write two or multiple IIFE one should be end with semicolon ;
 
-
-
